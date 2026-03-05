@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 def load_dataset(path):
-    df = pd.read_csv('C:\\Users\\kikiv\\Downloads\\diabetes_streamlit_app\\diabetes_prediction_dataset.csv')
+    df = pd.read_csv(path)
     return df
 
 
